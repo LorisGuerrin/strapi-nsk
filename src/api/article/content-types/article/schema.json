@@ -12,14 +12,24 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "content": {
+    "Client_Scope": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "GRN",
+        "LTL_FRANCE"
+      ]
+    },
+    "Content": {
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
         "preset": "defaultHtml"
-      }
+      },
+      "required": true
     }
   }
 }
