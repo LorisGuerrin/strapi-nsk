@@ -20,7 +20,8 @@
       "required": true,
       "enum": [
         "GRN",
-        "LTL_FRANCE"
+        "LTL_FRANCE",
+        "ERN"
       ]
     },
     "content": {

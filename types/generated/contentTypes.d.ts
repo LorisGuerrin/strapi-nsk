@@ -384,7 +384,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    client_scope: Schema.Attribute.Enumeration<['GRN', 'LTL_FRANCE']> &
+    client_scope: Schema.Attribute.Enumeration<['GRN', 'LTL_FRANCE', 'ERN']> &
       Schema.Attribute.Required;
     content: Schema.Attribute.RichText &
       Schema.Attribute.Required &
